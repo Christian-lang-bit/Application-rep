@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://images7.alphacoders.com/122/1228014.png');
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+
+button {
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#question {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#answers-container {
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    color: #000; /* Black text color */
+    padding: 15px; /* Padding inside the box */
+    border-radius: 10px; /* Rounded corners */
+    margin-top: 10px; /* Space above the box */
+    text-align: left; /* Align text to the left */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    max-width: 600px; /* Set a maximum width for the box */
+    margin: 20px auto; /* Center the box with margin */
+}
+
+#answers-container div {
+    border-bottom: 1px solid #ddd; /* Light gray line between answers */
+    padding: 10px 0; /* Padding for each answer */
+}
+
+#answers-container div:last-child {
+    border-bottom: none; /* Remove the border from the last item */
+}
