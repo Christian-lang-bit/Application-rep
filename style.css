@@ -41,22 +41,22 @@ button:hover {
 }
 
 #answers-container {
-    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
-    color: #000; /* Black text color */
-    padding: 15px; /* Padding inside the box */
-    border-radius: 10px; /* Rounded corners */
-    margin-top: 10px; /* Space above the box */
-    text-align: left; /* Align text to the left */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
-    max-width: 600px; /* Set a maximum width for the box */
-    margin: 20px auto; /* Center the box with margin */
+    background: rgba(255, 255, 255, 0.9); 
+    color: #000; 
+    padding: 15px;
+    border-radius: 10px; 
+    margin-top: 10px; 
+    text-align: left; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    max-width: 600px; 
+    margin: 20px auto;
 }
 
 #answers-container div {
-    border-bottom: 1px solid #ddd; /* Light gray line between answers */
-    padding: 10px 0; /* Padding for each answer */
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0; 
 }
 
 #answers-container div:last-child {
-    border-bottom: none; /* Remove the border from the last item */
+    border-bottom: none;
 }
